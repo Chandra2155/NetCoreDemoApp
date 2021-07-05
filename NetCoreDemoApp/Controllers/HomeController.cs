@@ -16,6 +16,7 @@ namespace NetCoreDemoApp.Controllers
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
+            //addded comments in Master branch
         }
 
         public IActionResult Index()
