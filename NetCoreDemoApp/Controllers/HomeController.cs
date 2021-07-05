@@ -16,6 +16,7 @@ namespace NetCoreDemoApp.Controllers
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
+			//adderd comments
         }
 
         public IActionResult Index()
